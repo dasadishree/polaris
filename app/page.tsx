@@ -2,6 +2,7 @@ export default function HomePage() {
   return (
     <main className="page">
       <div className="image-container">
+        {/* background */}
         <img
           src="/bg.PNG"
           alt="Horizons Polaris"
@@ -9,8 +10,23 @@ export default function HomePage() {
           draggable={false}
         />
 
+        {/* big logo image */}
+        <img
+          src="/logo.png"
+          alt="Horizons Polaris logo"
+          className="polaris-logo"
+          draggable={false}
+        />
+
+        {/* slide / view #1 */}
         <div className="text-overlay">
-          <h1>A 3 day hackathon for 100+ teenagers in Toronto, Canada</h1>
+          <h1>
+            A 3-day hackathon
+            <br />
+            for 100+ teenagers
+            <br />
+            in Toronto, Canada
+          </h1>
 
           <div className="list-box">
             <ol>
@@ -35,6 +51,11 @@ export default function HomePage() {
               </li>
             </ol>
           </div>
+        </div>
+
+        <div>
+          <h1>Welcome to Horizons Polaris</h1>
+          <p></p>
         </div>
       </div>
     </main>
