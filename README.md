@@ -1,20 +1,7 @@
 # Horizons Polaris
 A 3-day hackathon event for 100+ teenagers in Toronto, Canada
 
-1. Code 35 hours - make projects like apps, websites, games, CLIs, etc. Track your hours using Hackatime.
-2. Get invited & flown to Toronto, Canada for a hackathon/social coding marathon event for FREE. 
-Swag, food, and local transport is free for participants, and travel grants are available if participants complete additional hours.
-3. Join a team, build cool projects, make new friends from all over the world, and experience the BEST EVENT EVER!
-
-WELCOME TO HORIZONS POLARIS SECTRION:
-This August, we are hosting a 3 day hackathon from August 7th - 9th in Toronto, Canada! Horizons Polaris is organised by Hack Club, a nonprofit and community of 60,000 high school makers around the world. Horizons Polaris is the Canada event, part of Horizons: a series of 7 Hack Club hackathons taking place around the world. 
-Food and accomodation will be provided, as well as travel stipends! The hackathon is 100% free for all attendees no matter where you are from, because we want to make all teens able to create amazing projects that they are proud of regardless of their financial or geographical bacxkground. 
-To sign up, click the button to start making projects on the Horizons platform and join #horizons-polaris on the Hack Club Slack!
-
-Diamond button: Sign up (horizons themed)
-
-WHAT IS A HACKATHON?
-A hackagthon
+Diamond button: sign up (horizons themed)
 
 PREVIOUS EVENTS:
 - jpeg
