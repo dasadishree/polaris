@@ -9,7 +9,7 @@ export default function SiteFooter() {
           rel="noopener noreferrer"
         >
           <img
-            src="https://hackclub.com/assets/hackClubLogoRed.svg?dpl=dpl_CG43fSJoE8knA7qSQyQVZR3kFkDW"
+            src="/hc-flag.webp"
             alt="Hack Club flag"
             draggable={false}
           />

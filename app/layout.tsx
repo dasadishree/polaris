@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   description:
     "A 3-day hackathon event for 100+ teenagers in Toronto, Canada",
   icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
+    icon: "/logo.webp",
+    apple: "/logo.webp",
   },
 };
 

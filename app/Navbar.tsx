@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar${open ? " navbar--open" : ""}`}>
       <a href="#" className="navbar__logo" onClick={closeMenu}>
-        <img src="/logo.png" alt="Horizons Polaris" draggable={false} />
+        <img src="/logo.webp" alt="Horizons Polaris" draggable={false} />
       </a>
 
       <button
