@@ -46,7 +46,7 @@ export default function SiteFooter() {
           <div className="site-footer__column">
             <h4>Horizons</h4>
             <a
-              href="https://polaris.horizons.hackclub.com/"
+              href="https://horizons.hackclub.com/polaris"
               target="_blank"
               rel="noopener noreferrer"
             >

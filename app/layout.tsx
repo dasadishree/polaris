@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import localFont from "next/font/local";
+import Navbar from "./Navbar";
 import "./globals.css";
 
-// fonts
 const transylvania = localFont({
   src: "../public/Transylvania Bold Italic.ttf",
   variable: "--font-transylvania",
@@ -14,6 +14,16 @@ const signMerchant = localFont({
   variable: "--font-sign-merchant",
   display: "swap",
 });
+
+export const metadata: Metadata = {
+  title: "Horizons Polaris",
+  description:
+    "A 3-day hackathon event for 100+ teenagers in Toronto, Canada",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
+};
 
 export default function RootLayout({
   children,
@@ -26,7 +36,10 @@ export default function RootLayout({
       className={`${transylvania.variable} ${signMerchant.variable}`}
       suppressHydrationWarning
     >
-      <body suppressHydrationWarning>{children}</body>
+      <body suppressHydrationWarning>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

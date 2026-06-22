@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className="image-container">
         {/* background */}
         <img
-          src="/bg.PNG"
+          src="/bg.webp"
           alt="Horizons Polaris"
           className="scroll-image"
           draggable={false}
@@ -57,7 +57,7 @@ export default function HomePage() {
         </div>
 
         <div className="info-sections">
-          <section className="welcome-section">
+          <section id="welcome" className="welcome-section">
             <h2>
               Welcome to
               <br />
@@ -84,7 +84,7 @@ export default function HomePage() {
             </p>
           </section>
 
-          <section className="hackathon-section">
+          <section id="hackathon" className="hackathon-section">
             <h2>What is a hackathon?</h2>
             <p>
               A hackathon is a social coding marathon where teenagers come
@@ -97,7 +97,7 @@ export default function HomePage() {
         </div>
 
         {/* past hackathons */}
-        <section className="past-hackathons">
+        <section id="past-events" className="past-hackathons">
           <h2 className="past-hackathons__title">our past hackathons</h2>
           <p className="past-hackathons__intro">
             Here&apos;s some of the past events we have organized at Hack Club!

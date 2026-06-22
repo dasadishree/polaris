@@ -7,7 +7,7 @@ export default function FaqSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="faq-section">
+    <section id="faq" className="faq-section">
       <h2 className="faq-section__title">FAQ</h2>
 
       <div className="faq-list">
