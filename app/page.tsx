@@ -21,15 +21,6 @@ export default function HomePage() {
           draggable={false}
         />
 
-        <a
-          href="https://polaris.horizons.hackclub.com/"
-          className="signup-button"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sign up
-        </a>
-
         {/* slide / view #1 */}
         <div className="text-overlay">
           <h1>
