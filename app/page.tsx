@@ -16,7 +16,7 @@ export default function HomePage() {
 
         {/* big logo image */}
         <img
-          src="/logo.webp"
+          src="/logo.png"
           alt="Horizons Polaris logo"
           className="polaris-logo"
           draggable={false}
