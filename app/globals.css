@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
@@ -675,9 +679,9 @@ body {
   font-size: 2cqw;
   font-style: italic;
   font-weight: 400;
-  color: #ec3750;
+  color: navy;
   line-height: 1.15;
-  text-shadow: 0 0.14cqw 0.69cqw rgba(236, 55, 80, 0.35);
+  text-shadow: 0 0.14cqw 0.69cqw rgba(28, 0, 88, 0.35);
 }
 
 .site-footer__content p {
